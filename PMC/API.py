@@ -3,8 +3,6 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 import pandas as pd
 from joblib import load
-import numpy as np
-from sklearn.metrics import mean_squared_error as mse
 
 app = FastAPI()
 class DataModelapp(BaseModel):
